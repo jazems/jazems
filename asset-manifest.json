@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/jazems/static/css/main.af51807e.chunk.css",
+    "main.js": "/jazems/static/js/main.8e9f7e70.chunk.js",
+    "main.js.map": "/jazems/static/js/main.8e9f7e70.chunk.js.map",
+    "runtime-main.js": "/jazems/static/js/runtime-main.737be7f1.js",
+    "runtime-main.js.map": "/jazems/static/js/runtime-main.737be7f1.js.map",
+    "static/js/2.14f9a1e3.chunk.js": "/jazems/static/js/2.14f9a1e3.chunk.js",
+    "static/js/2.14f9a1e3.chunk.js.map": "/jazems/static/js/2.14f9a1e3.chunk.js.map",
+    "index.html": "/jazems/index.html",
+    "static/css/main.af51807e.chunk.css.map": "/jazems/static/css/main.af51807e.chunk.css.map",
+    "static/js/2.14f9a1e3.chunk.js.LICENSE.txt": "/jazems/static/js/2.14f9a1e3.chunk.js.LICENSE.txt",
+    "static/media/arlertdemo.15388f4d.png": "/jazems/static/media/arlertdemo.15388f4d.png",
+    "static/media/bearmapsdemo.d320d637.png": "/jazems/static/media/bearmapsdemo.d320d637.png",
+    "static/media/berkeleyLogo.859861c5.png": "/jazems/static/media/berkeleyLogo.859861c5.png",
+    "static/media/byowdemo.018adc6f.png": "/jazems/static/media/byowdemo.018adc6f.png",
+    "static/media/portrait.629b7431.jpeg": "/jazems/static/media/portrait.629b7431.jpeg",
+    "static/media/tictactoedemo.ced7cf70.gif": "/jazems/static/media/tictactoedemo.ced7cf70.gif",
+    "static/media/useformdemo.0fbc1730.gif": "/jazems/static/media/useformdemo.0fbc1730.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.737be7f1.js",
+    "static/js/2.14f9a1e3.chunk.js",
+    "static/css/main.af51807e.chunk.css",
+    "static/js/main.8e9f7e70.chunk.js"
+  ]
+}

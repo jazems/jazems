@@ -6,8 +6,9 @@ import {
   Text,
   useColorModeValue,
   VisuallyHidden,
+  Link,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaTwitter, FaYoutube, FaGithub } from "react-icons/fa";
 import { ReactNode } from "react";
 
 const SocialButton = ({
@@ -36,9 +37,9 @@ const SocialButton = ({
       }}
     >
       <VisuallyHidden>{label}</VisuallyHidden>
-      <a href={href} target="_blank">
+      <Link href={href} isExternal>
         {children}
-      </a>
+      </Link>
     </chakra.button>
   );
 };
@@ -60,14 +61,14 @@ export default function SmallWithSocial() {
       >
         <Text>© 2021 Jazem Siddiqui. All rights reserved.</Text>
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"http://twitter.com/_jazems"}>
-            <FaTwitter />
-          </SocialButton>
-          <SocialButton label={"Youtube"} href={"http://youtube.com"}>
-            <FaYoutube />
+          <SocialButton label={"Github"} href={"http://github.com/jazems"}>
+            <FaGithub />
           </SocialButton>
           <SocialButton label={"Instagram"} href={"http://instagram.com/worried"}>
             <FaInstagram />
+          </SocialButton>
+          <SocialButton label={"Twitter"} href={"http://twitter.com/_jazems"}>
+            <FaTwitter />
           </SocialButton>
         </Stack>
       </Container>

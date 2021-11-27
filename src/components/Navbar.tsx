@@ -19,9 +19,10 @@ import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@ch
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
+  const fontSize = "20px";
 
   return (
-    <Box>
+    <Box fontSize={fontSize}>
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
@@ -68,16 +69,17 @@ export default function WithSubnavigation() {
             <DesktopNav />
           </Box>
           <Button
-            size="sm"
+            as="a"
+            size="md"
             display={{ base: "none", md: "inline-flex" }}
             fontSize={"sm"}
             fontWeight={600}
             color={"white"}
             bg={"blue.400"}
-            href={"#"}
             _hover={{
               bg: "blue.300",
             }}
+            href={"#contact"}
           >
             Contact
           </Button>
@@ -105,9 +107,9 @@ const DesktopNav = () => {
               <Link
                 p={2}
                 href={navItem.href ?? "#"}
-                fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
+                fontSize={"17px"}
                 _hover={{
                   textDecoration: "none",
                   color: linkHoverColor,
@@ -179,7 +181,7 @@ const MobileNav = () => {
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
-      <MobileNavItem key="contact" label="Contact" href="#" />
+      <MobileNavItem key="contact" label="Contact" href="#contact" />
     </Stack>
   );
 };
@@ -243,19 +245,23 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
+    label: "About Me",
+    href: "#aboutMe",
+  },
+  {
     label: "Education",
-    href: "#",
+    href: "#education",
   },
   {
     label: "Experience",
-    href: "#",
+    href: "#experience",
   },
   {
     label: "Projects",
-    href: "#",
+    href: "#projects",
   },
   {
     label: "Skills",
-    href: "#",
+    href: "#skills",
   },
 ];

@@ -11,11 +11,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-export default function BasicUsage({ title, body }) {
+export default function BasicUsage({ title, body, technologies }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Button onClick={onOpen}>Info</Button>
+      <Button onClick={onOpen} colorScheme="blue">
+        Details
+      </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
@@ -24,6 +26,11 @@ export default function BasicUsage({ title, body }) {
           <ModalCloseButton />
           <ModalBody>
             <Text>{body}</Text>
+            <br />
+            <Text>
+              <b>Built with: </b>
+              {technologies}
+            </Text>
           </ModalBody>
 
           <ModalFooter>

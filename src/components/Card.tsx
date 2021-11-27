@@ -1,14 +1,16 @@
 import { Box, Center, useColorModeValue, Heading, Text, Stack, Image } from "@chakra-ui/react";
 import Modal from "./Modal";
 
-const IMAGE = "https://s10.gifyu.com/images/useformdemo.gif";
-
 type props = {
   title: string;
   body: string;
+  technologies: string;
+  src: any;
+  local: boolean;
 };
 
-export default function ProductSimple({ title, body }: props) {
+export default function ProductSimple({ title, body, technologies, src, local = false }: props) {
+  const img = local ? src : `url(${src})`;
   return (
     <Center py={12}>
       <Box
@@ -35,7 +37,7 @@ export default function ProductSimple({ title, body }: props) {
             pos: "absolute",
             top: 5,
             left: 0,
-            backgroundImage: `url(${IMAGE})`,
+            backgroundImage: img,
             filter: "blur(15px)",
             zIndex: -1,
           }}
@@ -45,14 +47,14 @@ export default function ProductSimple({ title, body }: props) {
             },
           }}
         >
-          <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={IMAGE} />
+          <Image rounded={"lg"} height={230} width={282} objectFit={"cover"} src={src} />
         </Box>
         <Stack pt={10} align={"center"} spacing="15px">
           <Heading fontSize={"2xl"} fontFamily={"body"} fontWeight={500}>
             {title}
           </Heading>
           <Stack direction={"row"} align={"center"}>
-            <Modal title={title} body={body} />
+            <Modal title={title} body={body} technologies={technologies} />
           </Stack>
         </Stack>
       </Box>

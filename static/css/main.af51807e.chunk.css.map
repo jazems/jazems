@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/Education.css"],"names":[],"mappings":"AAAA,cACE,oCACF,CAEA,oBACE,kCACF","file":"main.af51807e.chunk.css","sourcesContent":[".berkeleyLogo {\r\n  transition: transform 0.5s ease-in-out;\r\n}\r\n\r\n.berkeleyLogo:hover {\r\n  transform: rotate(360deg) scale(1.2);\r\n}\r\n"]}

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jazems/static/css/main.af51807e.chunk.css",
-    "main.js": "/jazems/static/js/main.8e9f7e70.chunk.js",
-    "main.js.map": "/jazems/static/js/main.8e9f7e70.chunk.js.map",
+    "main.css": "/jazems/static/css/main.21b7789d.chunk.css",
+    "main.js": "/jazems/static/js/main.e51daea7.chunk.js",
+    "main.js.map": "/jazems/static/js/main.e51daea7.chunk.js.map",
     "runtime-main.js": "/jazems/static/js/runtime-main.737be7f1.js",
     "runtime-main.js.map": "/jazems/static/js/runtime-main.737be7f1.js.map",
-    "static/js/2.14f9a1e3.chunk.js": "/jazems/static/js/2.14f9a1e3.chunk.js",
-    "static/js/2.14f9a1e3.chunk.js.map": "/jazems/static/js/2.14f9a1e3.chunk.js.map",
+    "static/js/2.e74c11fe.chunk.js": "/jazems/static/js/2.e74c11fe.chunk.js",
+    "static/js/2.e74c11fe.chunk.js.map": "/jazems/static/js/2.e74c11fe.chunk.js.map",
     "index.html": "/jazems/index.html",
-    "static/css/main.af51807e.chunk.css.map": "/jazems/static/css/main.af51807e.chunk.css.map",
-    "static/js/2.14f9a1e3.chunk.js.LICENSE.txt": "/jazems/static/js/2.14f9a1e3.chunk.js.LICENSE.txt",
+    "static/css/main.21b7789d.chunk.css.map": "/jazems/static/css/main.21b7789d.chunk.css.map",
+    "static/js/2.e74c11fe.chunk.js.LICENSE.txt": "/jazems/static/js/2.e74c11fe.chunk.js.LICENSE.txt",
     "static/media/arlertdemo.15388f4d.png": "/jazems/static/media/arlertdemo.15388f4d.png",
     "static/media/bearmapsdemo.d320d637.png": "/jazems/static/media/bearmapsdemo.d320d637.png",
     "static/media/berkeleyLogo.859861c5.png": "/jazems/static/media/berkeleyLogo.859861c5.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.737be7f1.js",
-    "static/js/2.14f9a1e3.chunk.js",
-    "static/css/main.af51807e.chunk.css",
-    "static/js/main.8e9f7e70.chunk.js"
+    "static/js/2.e74c11fe.chunk.js",
+    "static/css/main.21b7789d.chunk.css",
+    "static/js/main.e51daea7.chunk.js"
   ]
 }

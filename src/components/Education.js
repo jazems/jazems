@@ -11,6 +11,7 @@ import {
   Box,
   Image,
   VStack,
+  Stack,
   Text,
 } from "@chakra-ui/react";
 
@@ -26,9 +27,8 @@ const Education = () => {
           <Text fontSize="24px" fontWeight="bold">
             University of California, Berkeley
           </Text>
-          <Text fontSize="18px">
-            B.A. Computer Science, Data Science <Text as="i">C/O 2024</Text>
-          </Text>
+          <Text fontSize="18px">B.A. Computer Science, Data Science</Text>
+          <Text as="i">C/O 2024</Text>
           <Box py="30px">
             <Image className="berkeleyLogo" src={berkeleyLogo} boxSize="150px" />
           </Box>

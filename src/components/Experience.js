@@ -30,9 +30,9 @@ const Experience = () => {
         title="Product Management Intern"
         date="Aug 2021 - Dec 2021"
         description={[
-          "● Wrote HTML & CSS to convert design mockups to consumer-facing web pages as AllPeople’s first PM intern",
-          "● Performed competitive analysis of relevant e-commerce websites in order to inform policy and copy writing",
-          "● Coordinated with and review progress of relevant stakeholders in order to prepare website for official launch",
+          "‣ Wrote HTML & CSS to convert design mockups to consumer-facing web pages as AllPeople’s first PM intern",
+          "‣ Performed competitive analysis of relevant e-commerce websites in order to inform policy and copy writing",
+          "‣ Coordinated with and review progress of relevant stakeholders in order to prepare website for official launch",
         ]}
       />
       <Box py="2.5em" />
@@ -42,9 +42,9 @@ const Experience = () => {
         title="Blockchain Research & Business Analyst Intern"
         date="Feb 2021 - Aug 2021"
         description={[
-          "● Wrote a 20 page paper on developing smart contracts on top ledgers, their business use cases, and its impact on technology players in the Fintech space",
-          "● Performed competitive landscape analysis and ideated a business model for an internship DAO on NEAR protocol",
-          "● Researched tech solutions for Blockchain-related clients to develop and present sound recommendations",
+          "‣ Wrote a 20 page paper on developing smart contracts on top ledgers, their business use cases, and its impact on technology players in the Fintech space",
+          "‣ Performed competitive landscape analysis and ideated a business model for an internship DAO on NEAR protocol",
+          "‣ Researched tech solutions for Blockchain-related clients to develop and present sound recommendations",
         ]}
       />
     </Box>

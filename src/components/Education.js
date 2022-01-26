@@ -11,7 +11,6 @@ import {
   Box,
   Image,
   VStack,
-  Stack,
   Text,
 } from "@chakra-ui/react";
 
@@ -28,7 +27,7 @@ const Education = () => {
             University of California, Berkeley
           </Text>
           <Text fontSize="18px">B.A. Computer Science, Data Science</Text>
-          <Text as="i">C/O 2024</Text>
+          <Text as="i">C/O 2023</Text>
           <Box py="30px">
             <Image className="berkeleyLogo" src={berkeleyLogo} boxSize="150px" />
           </Box>
@@ -62,12 +61,24 @@ const Education = () => {
                   CS 61B: Data Structures & Algorithms
                 </ListItem>
                 <ListItem>
+                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  CS 61C: Machine Structures
+                </ListItem>
+                <ListItem>
                   <ListIcon as={CheckCircleIcon} color="green.500" />
                   CS 70: Discrete Math & Probability
                 </ListItem>
                 <ListItem>
+                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  CS 170: Efficient Algorithms and Intractable Problems
+                </ListItem>
+                <ListItem>
                   <ListIcon as={CheckCircleIcon} color="green.500" />
                   EECS 16A/B: Designing Information Devices and Systems I & II
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  INFO 253B: Back-End Web Architecture
                 </ListItem>
               </List>
             </Text>
@@ -90,11 +101,11 @@ const Education = () => {
                 DATA 8: The Foundations of Data Science
               </ListItem>
               <ListItem>
-                <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                <ListIcon as={CheckCircleIcon} color="green.500" />
                 DATA 88E: Economic Models
               </ListItem>
               <ListItem>
-                <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                <ListIcon as={CheckCircleIcon} color="green.500" />
                 DATA 100: Principles and Techniques of Data Science
               </ListItem>
               <ListItem>

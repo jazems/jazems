@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jazems.github.io/static/css/main.21b7789d.chunk.css",
-    "main.js": "/jazems.github.io/static/js/main.deeab8e1.chunk.js",
-    "main.js.map": "/jazems.github.io/static/js/main.deeab8e1.chunk.js.map",
+    "main.js": "/jazems.github.io/static/js/main.e7eef701.chunk.js",
+    "main.js.map": "/jazems.github.io/static/js/main.e7eef701.chunk.js.map",
     "runtime-main.js": "/jazems.github.io/static/js/runtime-main.b17e221d.js",
     "runtime-main.js.map": "/jazems.github.io/static/js/runtime-main.b17e221d.js.map",
     "static/js/2.e74c11fe.chunk.js": "/jazems.github.io/static/js/2.e74c11fe.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.b17e221d.js",
     "static/js/2.e74c11fe.chunk.js",
     "static/css/main.21b7789d.chunk.css",
-    "static/js/main.deeab8e1.chunk.js"
+    "static/js/main.e7eef701.chunk.js"
   ]
 }

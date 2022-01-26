@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import { VStack, Box, Stack, Image, Text } from "@chakra-ui/react";
 import "./App.css";
-import portrait from "./assets/portrait.jpeg";
+import portrait from "./assets/portrait.jpg";
 
 function App() {
   const inSectionSpacingMd = "5em";

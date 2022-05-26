@@ -3,7 +3,7 @@ import { Center, Table, Thead, Tbody, Tr, Th, Td, TableCaption } from "@chakra-u
 const Skills = () => {
   return (
     <Table size="sm" variant="striped" colorScheme="gray">
-      <TableCaption placement="bottom">Last Updated: Nov. 2021</TableCaption>
+      <TableCaption placement="bottom">Last Updated: June. 2022</TableCaption>
       <Thead>
         <Tr>
           <Th>Languages</Th>
@@ -16,7 +16,7 @@ const Skills = () => {
           <Td>React.js</Td>
         </Tr>
         <Tr>
-          <Td>Javascript</Td>
+          <Td>JavaScript</Td>
           <Td>Node.js</Td>
         </Tr>
         <Tr>
@@ -28,8 +28,12 @@ const Skills = () => {
           <Td>NumPy</Td>
         </Tr>
         <Tr>
+          <Td>C</Td>
+          <Td>Docker</Td>
+        </Tr>
+        <Tr>
           <Td>SQL</Td>
-          <Td>Matplotlib</Td>
+          <Td>Flask</Td>
         </Tr>
       </Tbody>
     </Table>

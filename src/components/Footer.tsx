@@ -59,7 +59,7 @@ export default function SmallWithSocial() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>© 2021 Jazem Siddiqui. All rights reserved.</Text>
+        <Text>© 2022 Jazem Siddiqui. All rights reserved.</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Github"} href={"http://github.com/jazems"}>
             <FaGithub />

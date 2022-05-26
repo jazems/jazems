@@ -1,4 +1,4 @@
-import { Box, Text, Divider, Spacer, HStack, VStack } from "@chakra-ui/react";
+import { Box, Text, Divider, Spacer, HStack } from "@chakra-ui/react";
 
 const OneExperience = ({ titleSize, company, title, description, date }) => {
   return (
@@ -24,6 +24,18 @@ const Experience = () => {
   const titleSize = "1.4em";
   return (
     <Box>
+      <OneExperience
+        titleSize={titleSize}
+        company="Anaplan"
+        title="Software Engineer Intern"
+        date="June 2022 - Aug 2022"
+        description={[
+          "‣ Platform Engineering Team",
+          "‣ Check back in a couple months to see what I've been working on!",
+          "",
+        ]}
+      />
+      <Box py="2.5em" />
       <OneExperience
         titleSize={titleSize}
         company="AllPeople"

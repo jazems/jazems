@@ -61,7 +61,7 @@ const Education = () => {
                   CS 61B: Data Structures & Algorithms
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  <ListIcon as={CheckCircleIcon} color="green.500" />
                   CS 61C: Machine Structures
                 </ListItem>
                 <ListItem>
@@ -69,15 +69,19 @@ const Education = () => {
                   CS 70: Discrete Math & Probability
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  <ListIcon as={CheckCircleIcon} color="green.500" />
                   CS 170: Efficient Algorithms and Intractable Problems
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  CS 186: Database Systems
                 </ListItem>
                 <ListItem>
                   <ListIcon as={CheckCircleIcon} color="green.500" />
                   EECS 16A/B: Designing Information Devices and Systems I & II
                 </ListItem>
                 <ListItem>
-                  <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                  <ListIcon as={CheckCircleIcon} color="green.500" />
                   INFO 253B: Back-End Web Architecture
                 </ListItem>
               </List>
@@ -107,6 +111,10 @@ const Education = () => {
               <ListItem>
                 <ListIcon as={CheckCircleIcon} color="green.500" />
                 DATA 100: Principles and Techniques of Data Science
+              </ListItem>
+              <ListItem>
+                <ListIcon as={RepeatClockIcon} color="yellow.500" />
+                DATA 140: Probability for Data Science
               </ListItem>
               <ListItem>
                 <ListIcon as={CheckCircleIcon} color="green.500" />

@@ -11,7 +11,7 @@ const AboutMe = () => {
         development for industry clients under an agile scrum framework with other product managers
         and engineers. For fall 2022 I am interested in joining organizations where I can further my
         development skills and network with a community of fun and talented students. In my free
-        time you'll find me playing{" "}
+        time you'll find me playing{"  "}
         <a href="https://www.smashbros.com/en_US/" target="_blank">
           <Text as="u">Smash</Text>
         </a>
